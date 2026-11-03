@@ -1,0 +1,69 @@
+# do run_fps.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Start time: 17:17:18 on Oct 26,2026
+# vlog sim/eram_model.v 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# -- Compiling module PH1P_LOGIC_ERAM
+# 
+# Top level modules:
+# 	PH1P_LOGIC_ERAM
+# End time: 17:17:18 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 17:17:18 on Oct 26,2026
+# vlog logo_rom_eram.v 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# -- Compiling module logo_rom_eram
+# 
+# Top level modules:
+# 	logo_rom_eram
+# End time: 17:17:18 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 17:17:18 on Oct 26,2026
+# vlog ../hdmi_mixer.v 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# -- Compiling module hdmi_mixer
+# 
+# Top level modules:
+# 	hdmi_mixer
+# End time: 17:17:18 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 17:17:18 on Oct 26,2026
+# vlog ../osd_char_lib.v 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# -- Compiling module osd_char_lib
+# 
+# Top level modules:
+# 	osd_char_lib
+# End time: 17:17:18 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 17:17:18 on Oct 26,2026
+# vlog sim/fps_mixer_tb.v 
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# -- Compiling module fps_mixer_tb
+# 
+# Top level modules:
+# 	fps_mixer_tb
+# End time: 17:17:18 on Oct 26,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -do "run_fps.do" -c 
+# Start time: 17:17:19 on Oct 26,2026
+# Loading work.fps_mixer_tb
+# Loading work.hdmi_mixer
+# Loading work.logo_rom_eram
+# Loading work.PH1P_LOGIC_ERAM
+# Loading work.osd_char_lib
+# [win1] cam=12 (exp 12)  cnn=07 (exp 07)
+# [win2] cam=99 (exp 99)  cnn=99 (exp 99)
+# [win3] cam=99 (exp 99)  cnn=99 (exp 99)
+# 
+# render: n_fps=2264 n_box_total=21504 n_box_fps=2264 n_box_raw=19240 n_box_other=0 n_raw=59704
+# 
+# FPS_MIXER_TB: PASS
+# ** Note: $finish    : sim/fps_mixer_tb.v(200)
+#    Time: 652945 ns  Iteration: 1  Instance: /fps_mixer_tb
+# End time: 17:17:20 on Oct 26,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

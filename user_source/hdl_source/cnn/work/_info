@@ -1,0 +1,204 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/TD/lab_ex3_osd_SC500_720P/lab_ex3_osd/user_source/hdl_source/cnn
+vchar_lib_geom_tb
+!s110 1793006208
+!i10b 1
+!s100 aaDo?Y6z^=FECemCd;jR?1
+I6aD=d4j:a0zMAFYX>DCb12
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1793006168
+8sim/char_lib_geom_tb.v
+Fsim/char_lib_geom_tb.v
+L0 7
+Z2 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1793006208.918000
+!s107 sim/char_lib_geom_tb.v|
+!s90 sim/char_lib_geom_tb.v|
+!i113 1
+vcnn_mac
+Z3 !s110 1791792346
+!i10b 1
+!s100 9S:@DJG0;bJ@nc<R4C8in1
+IPFlfP3KFQ12:I6<2Kak8M1
+R1
+R0
+w1791194648
+8cnn_mac.v
+Fcnn_mac.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1791792346.655000
+!s107 cnn_mac.v|
+!s90 cnn_mac.v|
+!i113 1
+vcnn_tb2
+R3
+!i10b 1
+!s100 X;If^I2@_bIZGKF:aXJaO2
+I3ll<KhMl:Iabz3L<M1NQ53
+R1
+R0
+w1791792346
+8sim/cnn_tb2.v
+Fsim/cnn_tb2.v
+L0 4
+R2
+r1
+!s85 0
+31
+!s108 1791792346.843000
+!s107 sim/cnn_tb2.v|
+!s90 sim/cnn_tb2.v|
+!i113 1
+vcnn_top
+R3
+!i10b 1
+!s100 H8]oIWlNWg@]mW<HB9emI2
+Id;`bc;4zmDGSSafZDiD=31
+R1
+R0
+w1791791534
+8cnn_top.v
+Fcnn_top.v
+Fcnn_params.vh
+L0 12
+R2
+r1
+!s85 0
+31
+!s108 1791792346.743000
+!s107 cnn_params.vh|cnn_top.v|
+!s90 +define+SIM|cnn_top.v|
+!i113 1
+!s92 +define+SIM
+vdesign_top_wrapper
+!s110 1792998688
+!i10b 1
+!s100 odQQH2CI:dVgQ;S:eR4]?3
+IXojgf@DYn83iIZb25H<CN2
+R1
+R0
+w1792998524
+8..\design_top_wrapper.v
+F..\design_top_wrapper.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1792998688.036000
+!s107 ..\design_top_wrapper.v|
+!s90 -work|work|..\design_top_wrapper.v|
+!i113 1
+o-work work
+vfps_mixer_tb
+Z4 !s110 1793006238
+!i10b 1
+!s100 PPU]mmIFPT5>_RFCli[Xc2
+Ia]IN5`GGfK2gKNiU`]gMH0
+R1
+R0
+w1793006148
+8sim/fps_mixer_tb.v
+Fsim/fps_mixer_tb.v
+L0 15
+R2
+r1
+!s85 0
+31
+!s108 1793006238.863000
+!s107 sim/fps_mixer_tb.v|
+!s90 sim/fps_mixer_tb.v|
+!i113 1
+vhdmi_mixer
+R4
+!i10b 1
+!s100 >e0HO9a87DXhoPI_ZG0LM0
+IICcdeD<Z3VUkZ2elzeLfK2
+R1
+R0
+w1793006054
+8../hdmi_mixer.v
+F../hdmi_mixer.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1793006238.678000
+!s107 ../hdmi_mixer.v|
+!s90 ../hdmi_mixer.v|
+!i113 1
+vlogo_rom_eram
+R4
+!i10b 1
+!s100 [XI@YQ0OJhSoSz0U:8lbR3
+I=eO=QO8dn`0FNSz5;0eM91
+R1
+R0
+w1791789766
+8logo_rom_eram.v
+Flogo_rom_eram.v
+L0 17
+R2
+r1
+!s85 0
+31
+!s108 1793006238.605000
+!s107 logo_rom_eram.v|
+!s90 logo_rom_eram.v|
+!i113 1
+vosd_char_lib
+R4
+!i10b 1
+!s100 HER20O9]X3Xzg]?EeACX_2
+Im]<GiKX^UCMO8eVV>0:i]3
+R1
+R0
+w1793006082
+8../osd_char_lib.v
+F../osd_char_lib.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1793006238.774000
+!s107 ../osd_char_lib.v|
+!s90 ../osd_char_lib.v|
+!i113 1
+vPH1P_LOGIC_ERAM
+R4
+!i10b 1
+!s100 iTV<aoQ6nFdM[W:G5C9P>2
+I9lOjiA@]4=mH8]_X`?P113
+R1
+R0
+w1791698430
+8sim/eram_model.v
+Fsim/eram_model.v
+L0 7
+R2
+r1
+!s85 0
+31
+!s108 1793006238.520000
+!s107 sim/eram_model.v|
+!s90 sim/eram_model.v|
+!i113 1
+n@p@h1@p_@l@o@g@i@c_@e@r@a@m

@@ -1,0 +1,27 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本机配置
+.vscode/
+Thumbs.db
+.DS_Store
+
+# 日志、崩溃转储与临时备份
+*.log
+*.logw
+*.dmp
+*.bak
+*.tmp
+.recent_user_depot.ini
+
+# FPGA 工具运行输出
+td_project/log/
+td_project/camera_to_dsi_display_Runs/
+
+# 本地环境变量
+.env
+.env.*
+!.env.example
